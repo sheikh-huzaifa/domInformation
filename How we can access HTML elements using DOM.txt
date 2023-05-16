@@ -1,0 +1,18 @@
+   How we can access HTML elements using DOM in javascript?
+
+To access HTML elements using DOM (Document Object Model) in JavaScript, you can use various methods and properties provided by the DOM API. Here are some commonly used methods:
+
+getElementById(): This method returns a reference to the element with the specified ID. For example:
+                        let element = document.getElementById("myElement");
+
+getElementsByTagName(): This method returns a collection of elements with the specified tag name. For example:
+                        let elements = document.getElementsByTagName("p");
+
+getElementsByClassName(): This method returns a collection of elements with the specified class name. For example:
+                        let elements = document.getElementsByClassName("myClass");
+
+querySelector(): This method returns the first element that matches the specified CSS selector. For example:
+                        let element = document.querySelector("#myElement");
+
+querySelectorAll(): This method returns a collection of elements that match the specified CSS selector. For example:
+                        let elements = document.querySelectorAll(".myClass");
